@@ -32,7 +32,7 @@ Before you begin, ensure you have:
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
-git clone https://github.com/SiddharthSinghMarkam/your-project.git
+git clone https://github.com/SiddharthSinghMarkam/AI-Resume-Critiquer.git
 
 ### 2. Navigate to the project directory
    ```bash
@@ -61,8 +61,3 @@ git clone https://github.com/SiddharthSinghMarkam/your-project.git
 
 3. Start critiquing - Upload your resume, select a critique type, and click "Get AI Feedback"
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to:
-- Open an issue for bug reports or feature requests
-- Submit a pull request with improvements
