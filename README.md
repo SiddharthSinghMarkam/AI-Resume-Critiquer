@@ -36,7 +36,7 @@ git clone https://github.com/SiddharthSinghMarkam/AI-Resume-Critiquer.git
 
 ### 2. Navigate to the project directory
    ```bash
-   cd your-project
+   cd AI-Resume-Critiquer
    ```
 
 ### 3. Install required packages
