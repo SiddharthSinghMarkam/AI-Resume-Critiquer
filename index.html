@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💩 Siddu moosa vala resume checker by sidhu don 💩</h1>
+            <p>Fully Offline • NLP-Powered • Vanilla HTML/CSS/JS</p>
+        </header>
+
+        <div class="layout">
+            <!-- Sidebar for Inputs -->
+            <aside class="sidebar">
+                <form id="uploadForm">
+                    <div class="form-group">
+                        <label for="resumeFile">📁 Upload Resume (PDF only)</label>
+                        <input type="file" id="resumeFile" accept="application/pdf" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="jdText">📌 Job Description (Optional)</label>
+                        <textarea id="jdText" rows="8" placeholder="Paste the full job description here..."></textarea>
+                    </div>
+
+                    <button type="submit" id="submitBtn">🔍 Analyze Resume</button>
+                </form>
+                <div id="errorMessage" class="error-box hidden"></div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="content">
+                <!-- Welcome Screen -->
+                <div id="welcomeScreen" class="welcome">
+                    <h3>Upload your resume on the left to begin.</h3>
+                    <p>All 15 features including ATS Scoring, Impact Checks, and Bullet Quality will be analyzed locally via the Python backend.</p>
+                </div>
+
+                <!-- Loader -->
+                <div id="loader" class="loader hidden">
+                    <div class="spinner"></div>
+                    <p>Running full NLP analysis...</p>
+                </div>
+
+                <!-- Results Dashboard -->
+                <div id="resultsDashboard" class="dashboard hidden">
+                    <h2>📊 Resume Score Dashboard</h2>
+                    
+                    <div class="metric-grid">
+                        <div class="metric-card">
+                            <h4>🏆 Overall Score</h4>
+                            <h2 id="scoreOverall">-</h2>
+                        </div>
+                        <div class="metric-card">
+                            <h4>🎯 ATS Match</h4>
+                            <h2 id="scoreAts">-</h2>
+                        </div>
+                        <div class="metric-card">
+                            <h4>📊 Impact Score</h4>
+                            <h2 id="scoreImpact">-</h2>
+                        </div>
+                        <div class="metric-card">
+                            <h4>📋 Sections Found</h4>
+                            <h2 id="scoreSections">-</h2>
+                        </div>
+                    </div>
+
+                    <h3>💡 Action Plan</h3>
+                    <ul id="actionPlanList" class="action-plan">
+                        <!-- Action plan items will be injected here via JS -->
+                    </ul>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
