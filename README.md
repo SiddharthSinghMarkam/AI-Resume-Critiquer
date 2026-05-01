@@ -1,6 +1,6 @@
-# AI Resume Critiquer 🤖
+#  Resume Analyzer Pro 🤖
 
-An intelligent web application that uses Google's Gemini AI to provide personalized and detailed feedback on resumes. Upload your PDF resume and receive comprehensive critiques to polish your professional documents.
+An intelligent web application that uses NLP to provide personalized and detailed feedback on resumes. Upload your PDF resume and receive comprehensive critiques to polish your professional documents.
 
 ## 🚀 Features
 
@@ -16,18 +16,9 @@ Choose from multiple critique options tailored to your needs:
 - **💪 Strengths and Weaknesses Analysis** - Identify what works and what needs improvement
 - **⚡ Action Verbs Analysis** - Enhance your bullet points with powerful verbs
 
-### 🤖 AI-Powered Analysis
-Utilizes Google's advanced `gemini-1.5-pro` model for intelligent, context-aware feedback.
-
 ### 🎨 Intuitive Interface
 Clean, user-friendly interface built with Streamlit for seamless user experience.
 
-## 📋 Prerequisites
-
-Before you begin, ensure you have:
-
-- **Google API Key** for Gemini API ([Get one from Google AI Studio](https://makersuite.google.com/app/apikey))
-- **Python 3.8 or newer**
 
 ## 🛠️ Installation
 
@@ -36,20 +27,13 @@ git clone https://github.com/SiddharthSinghMarkam/AI-Resume-Critiquer.git
 
 ### 2. Navigate to the project directory
    ```bash
-   cd AI-Resume-Critiquer
+   cd     ResumeAnalyzer_Pro
    ```
 
 ### 3. Install required packages
    ```bash
    pip install -r requirements.txt
    ```
-
-### 4. Set up environment variables
-   - Create a `.env` file in the project root
-   - Add your Google API key:
-     ```
-     GOOGLE_API_KEY='your_api_key_here'
-     ```
 
 ### Usage
 
